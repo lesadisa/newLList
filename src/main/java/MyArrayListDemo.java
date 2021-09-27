@@ -47,7 +47,7 @@ public class MyArrayListDemo {
         System.out.println(myAL + " @@@ " + myAL.size()); // print elements and size
 
         try {
-            myAL.add(40, "Z"); //this will throw an exception
+            myAL.add(40, "Z"); //this will throw an  exception
         } catch (ArrayIndexOutOfBoundsException ex) {
             System.out.println("ArrayIndexOutOfBoundsException raised.");
         }
